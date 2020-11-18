@@ -1,0 +1,46 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a routerLink="/home" class="navbar-brand">HOME</a>
+        </div>
+        <div class="navbar-collapse" [class.colapse]="collapsed" (window:resize)="collapsed = true">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown" appDropdown>
+                   <a class="dropdown-toggle" role="button">Procese cognitive senzoriale<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                       <li role="presentation"><a routerLink="/senzitivity">Senzatii</a></li>
+                       <li role="presentation"><a routerLink="/perception">Perceptii</a></li>
+                       <li role="presentation"><a routerLink="/reprezentation">Reprezentari</a></li>
+                   </ul>
+               </li>
+               <li class="dropdown" appDropdown>
+                    <a class="dropdown-toggle" role="button">Procese reglatorii<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li role="presentation"><a routerLink="/motivation">Motivatia</a></li>
+                        <li role="presentation"><a routerLink="/perception">Vointa</a></li>
+                        <li role="presentation"><a routerLink="/reprezentation">Atentia</a></li>
+                        <li role="presentation"><a routerLink="/reprezentation">Afectivitate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" appDropdown>
+                    <a class="dropdown-toggle" role="button">Personalitate<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li role="presentation"><a routerLink="/about-personality">Despre personalitate</a></li>
+                        <li role="presentation"><a routerLink="/temperament">Temperament</a></li>
+                        <li role="presentation"><a routerLink="/character">Caracter</a></li>
+                        <li role="presentation"><a routerLink="/creativity">Creativitate</a></li>
+                        <li role="presentation"><a routerLink="/skills">Aptitudini</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown" appDropdown>
+                    <a class="dropdown-toggle" role="button">Activitati psihice<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li role="presentation"><a routerLink="/about-psychic-activity">Activitatea</a></li>
+                        <li role="presentation"><a routerLink="/language">Limbaj</a></li>
+                    </ul>
+                </li>
+           </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet>
