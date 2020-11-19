@@ -5,14 +5,22 @@
         </div>
         <div class="navbar-collapse" [class.colapse]="collapsed" (window:resize)="collapsed = true">
             <ul class="nav navbar-nav navbar-right">
-               <li class="dropdown" appDropdown>
+                <li class="dropdown" appDropdown>
                    <a class="dropdown-toggle" role="button">Procese cognitive senzoriale<span class="caret"></span></a>
                    <ul class="dropdown-menu">
                        <li role="presentation"><a routerLink="/senzitivity">Senzații</a></li>
                        <li role="presentation"><a routerLink="/perception">Percepții</a></li>
                        <li role="presentation"><a routerLink="/reprezentation">Reprezentări</a></li>
                    </ul>
-               </li>
+                </li>
+                <li class="dropdown" appDropdown>
+                    <a class="dropdown-toggle" role="button">Procese cognitive superioare<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li role="presentation"><a routerLink="/thinking">Gândire</a></li>
+                        <li role="presentation"><a routerLink="/memory">Memorie</a></li>
+                        <li role="presentation"><a routerLink="/imagination">Imaginație</a></li>
+                    </ul>
+                </li>
                <li class="dropdown" appDropdown>
                     <a class="dropdown-toggle" role="button">Procese reglatorii<span class="caret"></span></a>
                     <ul class="dropdown-menu">
