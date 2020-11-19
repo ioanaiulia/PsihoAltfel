@@ -1,1 +1,168 @@
-<p>perception works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Percepțiile</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatArePerceptionClick()"> 
+                    Ce sunt percepțiile?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatArePerception === true" class="content">
+                    <h4>
+                        Percepțiile sunt procese psihice cognitiv-senzoriale prin care se cunosc în <b>totaliate</b> însușirile  ale obiectelor si fenomenelor, in conditiile in care acestea actioneaza direct asupra analizatorilor.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onPerceptionStepsClick()"> 
+                    Fazele procesului perceptiv
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="perceptionSteps === true" class="content">
+                    <h4>
+                        Fazele percepției sunt:
+                    </h4>
+                    <h4>
+                        <ul>
+                            <li>Detecția</li>
+                            <li>Discriminarea</li>
+                            <li>Identificarea</li>
+                            <li>Interpretarea</li>
+                        </ul>
+                    </h4>
+                    <h3><b>Detecția</b></h3>
+                    <h4>
+                        Sesizăm prezența stimulului însă nu putem să spunem nimic concret despre el. Tot ce puntem afirma în această fază este „Văd ceva!”, fără a putea da alte detalii.
+                    </h4>
+                    <h3><b>Discriminarea</b></h3>
+                    <h4>
+                        Are loc separarea stimulului de funal. În acest moment vom putea să ne pronunțăm asupra însușirile caracteristice ale stimului.
+                    </h4>
+                    <h3><b>Identificarea</b></h3>
+                    <h4>
+                        În această etapă recunoaștem stimulul care acționează asupra noastră și putem spune ce este acesta și care este utilitatea sa.
+                    </h4>
+                    <h3><b>Interpretarea</b></h3>
+                    <h4>
+                        Este faca în care dăm subiectului o semnificație, putem spui cui aparține și alte detalii specifice stimulului respectiv.
+                    </h4>
+                    <img src="./../../../../assets/images/steps.jpg" alt="Fazele percepției" class="image">
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onPerceptionTypesClick()"> 
+                    Tipuri de percepții
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="perceptionTypes === true" class="content">
+                    <h4>
+                        Percepțiile, la fel ca și senzațiile, pot avea diferite forme în funcție de analizatorul implicat, astfel avem: <b>percepții auditive</b>, <b>percepții olfactive</b>, <b>percepții gustative</b>, <b>percepții vizuale</b> și <b>percepții cutanate</b>.
+                    </h4>
+                    <h4>
+                        Pe lângă aceste forme mai avem și:
+                    </h4>
+                    <h4>
+                        <b>Percepția spațiului</b>: cu ajutorul acesteia percepem proprietățile spațiale ale obiectelor (forma, mărimea, distanța, direcția, relieful).
+                    </h4>
+                    <h4>
+                        <b>Percepția timpului</b>: este mai și mai ușor de denaturat deoarece îi lipsesc reperele evidente și certe. Însă, percepția propriu-zisă a timpului se realizează în două forme: percepția succesiunii evenimentelor și percepția duratei.
+                    </h4>
+                    <h4>
+                        <b>Percepția mărimii</b>: aceasta se referă la perceperea obiectelor în mișcare, nu la mișcarea propriu-zisă. Mai exact, nu percepem mișcarea în sine, ci perepem un obiect care se află în mișcare și își schimbă poziția față de alte obiecte care rămân fixe.
+                    </h4>
+                    <h4>
+                        <b>Observația</b>: este activitatea perceptivă intenționată, orientată spre un scop, organizată și condusă conștient și dupo un plan. Din această formă a percepției derivă <u>spiritul de observație</u> care este abilitatea de a sesiza cu ușurință lucrurile ascune, dar importante pentru scopurile omului.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onPerceptionCharacteristicClick()"> 
+                    Caracteristicile percepțiilor
+                </button>
+            </div>    
+            <hr>
+            <div class="row">
+                <div *ngIf="perceptionCharacteristic === true" class="content">
+                    <h4>
+                        Percepția reflectă însușirile concrete și intuitive ale obiectelor și fenomenelor, astfel este imagine unitară și integrală. Totodată, percepția este o imagine primară deoarece apare numai în relația directă cu obiectul, dar și o imagine obiectuală pentru că reflectă imaginea unui obiect anume. Imaginea obținută în urma procesului perceptiv este bogată în conținut, ea cuprinde atât însușirile caracteristice, cât și detalii. Percepțiile reflectă obiectul respectând mărimea, forma, poziția, astfel încât sa avem o imagine a acestuia clară, completă și precisă. orice deformări ale percepției redau tulburări psihice. 
+                   </h4>
+                   <h4>
+                        În același timp, percepția reflectă obicetul cu toate nuanțele lui cromatice. Din punctul de vedere al perspectivei pe care o oferă, percepția nu cuprinde decăt însușirile care pot fi percepute din poziția pe care o avem față de obiect. Iar referitor la durată aceasta este egală cu durata acțiunii stimulului.
+                   </h4>
+                   <h4>
+                    Pe de altă parte, percepția unui obiect este contextuală, ea va cuprinde și elemente aflate în câmpul perceptiv. Orice percepție se realizează „hic et nunc” (aici și acum).
+                   </h4>
+                   <h4>
+                       Intensitatea pecepției este dată de intensitatea stimulului, de relația optimă cu acesta și de starea subiectului. Calitatea imaginii perceptive depinde de: relația activă cu obictul și integrarea percepție într-o activitate; intervenția mecanismelor verbale, care au o funcție integratoare; particularități ale subiectului (experiența anterioară, pregătire profesională, gradul de cultură generală, interesul pentru o categorie de stimuli, atenția, etc.)
+                   </h4>
+                   <h4>
+                       Percepția are multiple funcții dintre care funcție informațională specifică (informează omul despre totalitatea însușirilor obiectelor și fenomenelor), funcție de reglare a acțiunilor (în urma percepției obiectelor, a distanței, a mărimilor ne reglăm modul de operare cu acestea). Procesul perceptiv este în interdependență cu totalitatea celorlalte procese psihice. De exemplu, percepțiile vizuale, auditive și kinestezice sunt implicate în realizarea vorbirii, citirii și scrierii.
+                   </h4>
+                  
+                </div>
+            </div> 
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onPerceptionLawsClick()"> 
+                    Legile procesului perceptiv
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="perceptionLaws === true" class="content">
+                    <h3>
+                        <b>Legea semnificației</b>
+                    </h3>
+                    <h4>
+                        Perceperea unui stimul este facilitată de interesul nostru pentru acesta. Un stimul căruia îi acordăm o semnificație mărită va atrage o mai mare ușurință atenția noastră
+                    </h4>
+                    <h3>
+                        <b>Legea integralității</b>
+                    </h3>
+                    <h4>
+                        Cunoașterea unui obiect ca un tot unitar, ceea ce cuprinde atât însușirile esențiale, cât și pe cele de detaliu, face ca acestea să se impună împreună, iar atunci când este văzut doar parțial subiectul se comportă ca și cum l-ar vedea în întregime.
+                    </h4>
+                    <h3>
+                        <b>Legea structuralizării</b>
+                    </h3>
+                    <h4>
+                        Percepția ierarhizează într-o structură unitară însușirile mai importante ce se impun în plan perceptiv, trecându-le pe celelalte într-un plan secund.
+                    </h4>
+                    <h3>
+                        <b>Legea selectivității</b>
+                    </h3>
+                    <h4>
+                        Din multitudinea de stimuli ce actionează asupra lui, omul se focalizează asupra unuia care reprezintă <u>obiectul percepției</u>, ceilalți stimuli intrând în <u>fondul percepției</u>.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
