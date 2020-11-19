@@ -1,0 +1,186 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Senzațiile</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatAreSenzationClick()"> 
+                    Ce sunt senzațiile?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatAreSenzation === true" class="content">
+                    <h4>
+                        Senzatiile sunt procese psihice cognitiv-senzoriale prin care se cunosc <b>separat</b> insusirile generale si esentiale ale obiectelor si fenomenelor, in conditiile in care acestea actioneaza direct asupra analizatorilor.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsAnalisatorClick()"> 
+                    Ce este un ananlizator?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsAnalisator === true" class="content">
+                    <h4> Senzațiile sunt rezultatul activității reflexe a analizatorilor ca răspuns la stimulările exterioare simple. Dar cum am putea defini analizatorul? </h4>
+                    <h4>Acesta este un sistem morfofunctional care face posibila producerea senzatiilor.</h4>
+                    <h4> <u>Exemple</u> de analizatori: analizator olfactiv, analizator vizual, analizator auditiv etc.</h4>
+                    <h4> <b>Din ce este format un analizator?</b></h4>
+                    <img src="../../../assets/images/Analizator.jpg" alt="Structura Analizator" class="image">
+                    <h3> Atentie!</h3>
+                    <h4> Nu putem pune egal intre analizator si organul receptor al acestuia. Retina, care se afla in structura ochiului, este doar receptorul pentru ananlizatorul vizual. </h4>
+                    <br>
+                    <h4>
+                       Pe de alta parte, ca analizatorul sa fie pus in practica, este nevoie de <b> stimul</b> pentru ca receptorii sa fie excitati. stimulul este cel care produce o reactie. <b> Reactia </b>este raspunsul la actiunea stimulului.
+                    </h4>
+                </div>
+            </div>  
+            <hr>  
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onSenzationTypesClick()"> 
+                    Tipuri de senzații
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="senzationTypes === true" class="content">
+                    <h3> Senzatiile pot fi: </h3>
+                    <h4>
+                        <ol>
+                            <li>
+                                <u>Senzatii exteroceptive</u> : (aduc informatii din mediul exterior) auditive, olfactive, gustative, cutanate;
+                            </li>
+                            <li>
+                                <u>Senzatii proprioceptive</u> : (ne informeaza despre pozitia si miscarile propriului corp)
+                                <ul>
+                                    <li>
+                                        senzatii de echilibru;
+                                    </li>
+                                    <li>
+                                        senzatii kinestezice/ de miscare;
+                                    </li>
+                                </ul>
+                            </li>
+                            <li> 
+                                <u>Senzatii interoceptive</u> 
+                                <ul>
+                                    <li>
+                                        senzatii organice: exprima schimbarile care au loc in corpul nostru> scaderea concetratiei de substante nutritive in sange, a apei, a oxigenului etc.
+                                    </li>
+                                    <li> 
+                                        senzatii de durere: semnalizeaza tulburari functionale sau distrugeri de tesuturi organice.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onSenzationCharacteristicClick()"> 
+                    Caracteristicile senzațiilor
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="senzationCharacteristic === true" class="content">
+                    <h4>
+                        Senzațiile sunt procese psihice care reflectă însușiri concrete ale obiectelor și fenomenelor, doar în mod separat, astfel ele fiind imagini simple. Acesta este și motivul pentru care senzațiile sunt sărace în conținut. Totodată, ele sunt și imagini primare deoarece sunt rezultatul imediat al acțiunii stimulului asupra analizatorului. 
+                    </h4>
+                    <h4>
+                        Durata senzațiilor corespunde duratei acțiunii stimulului. Însă, cercetătorii au arătat că senzațiile nu apar imediat după acțiunea stimulului și nici nu încetează o dată cu încetarea acțiunii stimulului. Așa apare postefectul.
+                    </h4>
+                    <h4>
+                        În ceea ce privește intensitatea stimulului, aceasta este dată de intensitatea stimulului și starea generală a subiectului. Iar, pe de altă parte, caliatea senzației este dată de intensitatea stimulului și de particularitățile subiectului cunoscător, adică interesul pentru o categorie de stimuli, prezența unor aptitudini, atitudinea față de un stimul etc.
+                    </h4>
+                    <h4>
+                        Senzațiile au funcție informațională, aduc informații din mediu exterior (în cazul senzațiilor exteroceptive) sau ne informează despre poziția, mișcarile și starea propriului nostru corp (senzațiile proprioceptive și cele interoceptive).
+                    </h4>
+                    <h4>
+                        Natura senzațiilor face ca acestea să fie integrate în structuri ale aptitudinilor complexe. De exemplu, senzațiile sunt componente ale câmpului de conștiință, astfel contribuind la efectul conștientizării lumii și a propriei ființe.
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onSenzationLawsClick()"> 
+                    Legile generale ale sensibilității
+                </button>
+            </div>    
+            <div class="row">
+                <div *ngIf="senzationLaws === true" class="content">
+                    <h3>
+                       <b> Legea Pragurilor</b>
+                    </h3>
+                        <h4>
+                            <b>Pragul minim</b>: intensitatea cea mai mică a unui stimul care poate să producă o senzație. 
+                        </h4>
+                        <h4>
+                            <b>Pragul maxim</b>: intensitatea cea mai mare a unui stimul care încă mai produce o senzație. Dincolo de acest prag apare senzația de durere.
+                        </h4>
+                        <h4>
+                            <b>Pragul diferențial</b>: este intensitatea cea mai mică a unui stimul care adăugată unei senzații anterioare produce o nouă senzație, într-un alt analizator.
+                        </h4>
+                    <h3>
+                        <b>Legea adaptării</b>
+                    </h3>
+                        <h4>
+                            Această lege se referă la modificarea sensibilității față de un stimul în condițiile în care acesta acționează în mod repetat asupra analizatorilor.
+                        </h4>
+                        <h4>
+                            <u>Exemplu</u>: te familiarizezi cu tabloul nou pe care ți l-ai pus în cameră; deși te-ai dat cu parfum, de la un moment dat nu-i mai simți mirosul; prima bucățică de ciocolată e cea mai dulce și mai gustoasă.
+                        </h4>
+                    <h3>
+                        <b> Legea contrastului</b>
+                    </h3>
+                        <h4>
+                            Această lege presupune punerea reciprocă în evidență a doi stimului a căror caracteristici sunt opuse.
+                        </h4>
+                        <h4>
+                            <u>Exemplu</u>: o persoană înaltă lângă una scundă; culorile negru și galben sunt des utilizate în publicitate deoarece sunt cel mai puternic contrast cromatic; după supă fiebinte apa ne va părea mai rece decât este în realitate.
+                        </h4>
+                    <h3>
+                        <b>Legea interacțiunii analizatorilor</b>
+                    </h3>
+                        <h4>
+                            Se mai numește și legea sinesteziei. Presupune ca producerea unei senzații într-un analizator să determine producerea unei alte Senzatii, într-un alt analizator, fără ca să existe stimul direct pentru acesta din urmă.
+                        </h4>
+                        <h4>
+                            <u>Exemplu</u>: ascultăm un cântec frumos și ni se face pielea de găină; când simțim miros de cozonac salivăm.
+                        </h4>
+                    <h3>
+                        <b>Legea semnificației</b>
+                    </h3>
+                        <h4>
+                            Acordarea unei semnificații mai mari unui stimul face să crească sensibilitatea pentru acesta (suntem mai receptivi față de acel stimul).
+                        </h4>
+                        <h4>
+                            <u>Exemplu</u>: chiar dacă ne-am afla într-un loc în care e gălăgie, dacă la un moment dat se va reda pisa noastră preferată o vom sesiza imediat.
+                        </h4>
+                </div>
+            </div>  
+            <br>  
+        </div>
+    </div>
+</div>

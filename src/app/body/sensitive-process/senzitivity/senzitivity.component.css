@@ -1,0 +1,26 @@
+.senzation {
+    background-color: rgb(187, 184, 184);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: x-large;
+    margin-left: 33%;
+}
+
+.title {
+    background-color: rgba(226, 226, 226,0.5);
+    text-align: center;
+    padding: 2%;
+}
+
+.content {
+    text-indent: 30px;
+    margin: 3%;
+}
+.container {
+    background-color: white;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}

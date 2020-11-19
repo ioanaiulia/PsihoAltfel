@@ -3,27 +3,29 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
-import { SenzitivityComponent } from './sensitive-process/senzitivity/senzitivity.component';
-import { PerceptionComponent } from './sensitive-process/perception/perception.component';
-import { ReprezentationComponent } from './sensitive-process/reprezentation/reprezentation.component';
-import { ThinkingComponent } from './superior-process/thinking/thinking.component';
-import { MemoryComponent } from './superior-process/memory/memory.component';
-import { ImaginationComponent } from './superior-process/imagination/imagination.component';
-import { MotivationComponent } from './reglatory-process/motivation/motivation.component';
-import { WillnessComponent } from './reglatory-process/willness/willness.component';
-import { AttentionComponent } from './reglatory-process/attention/attention.component';
-import { AffectionComponent } from './reglatory-process/affection/affection.component';
-import { AboutPersonalityComponent } from './personality/about-personality/about-personality.component';
-import { TemperamentComponent } from './personality/temperament/temperament.component';
-import { CharacterComponent } from './personality/character/character.component';
-import { SkillsComponent } from './personality/skills/skills.component';
-import { CreativityComponent } from './personality/creativity/creativity.component';
-import { AboutPsychicActivitiesComponent } from './psychic-activities/about-psychic-activities/about-psychic-activities.component';
-import { LanguageComponent } from './psychic-activities/language/language.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { FooterComponent } from './footer/footer.component';
+import { BodyComponent } from './body/body.component';
+import { AboutPersonalityComponent } from './body/personality/about-personality/about-personality.component';
+import { CharacterComponent } from './body/personality/character/character.component';
+import { CreativityComponent } from './body/personality/creativity/creativity.component';
+import { SkillsComponent } from './body/personality/skills/skills.component';
+import { TemperamentComponent } from './body/personality/temperament/temperament.component';
+import { AboutPsychicActivitiesComponent } from './body/psychic-activities/about-psychic-activities/about-psychic-activities.component';
+import { LanguageComponent } from './body/psychic-activities/language/language.component';
+import { AffectionComponent } from './body/reglatory-process/affection/affection.component';
+import { AttentionComponent } from './body/reglatory-process/attention/attention.component';
+import { MotivationComponent } from './body/reglatory-process/motivation/motivation.component';
+import { WillnessComponent } from './body/reglatory-process/willness/willness.component';
+import { PerceptionComponent } from './body/sensitive-process/perception/perception.component';
+import { ReprezentationComponent } from './body/sensitive-process/reprezentation/reprezentation.component';
+import { SenzitivityComponent } from './body/sensitive-process/senzitivity/senzitivity.component';
+import { ImaginationComponent } from './body/superior-process/imagination/imagination.component';
+import { MemoryComponent } from './body/superior-process/memory/memory.component';
+import { ThinkingComponent } from './body/superior-process/thinking/thinking.component';
+import { HomeComponent } from './header/home/home.component';
 
 const appRoutes: Routes = [
   {path: 'about-personality', component: AboutPersonalityComponent },
@@ -70,7 +72,9 @@ const appRoutes: Routes = [
     CreativityComponent,
     AboutPsychicActivitiesComponent,
     LanguageComponent,
-    DropdownDirective
+    DropdownDirective,
+    FooterComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
