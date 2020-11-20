@@ -92,6 +92,98 @@
                 </div>
             </div>    
             <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onThkStrategyClick()"> 
+                    Strategii de operare
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="thkStrategy === true" class="content">
+                    <h3><b>Algoritmica</b></h3>
+                    <h4>
+                        Algoritmul reprezintă serii strict ordonate de operații ce intervin succesiv până se ajunge la îndeplinirea unei anumite sarcini. Este o structură operațională standardizată ce se exprimă printr-o regulă precisă. Algoritmica este valabilă pentru o întreagă clasă de obiecte sau fenomene.
+                    </h4>
+                    <h3><b>Euristica</b></h3>
+                    <h4>
+                        Euristica este disciplina ce reunește procedeele menite să conducă la descoperiri și invenții. Procedeele euristice sunt sisteme operaționale plastice și deschise la rezolvarea sarcinii prin metode de tipul punerii de întrebări și de noi probleme, a explorării și ipotezei, a îndoielii față de ceea ce se consideră adevărat sau valabil și a contrazicerilor parțiale sau integrale. După ce este verificat un procedeu euristic poate să se transforme în algoritm.                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onNJRClick()"> 
+                    Noțiuni. Judecăți. Raționamente
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="njr === true" class="content">
+                    <h3><b>Noțiunea</b></h3>
+                    <h4>
+                        Noțiune = concept = integrator 
+                    </h4> 
+                    <h4>Noțiunea este o construcție mintală care integrează informații generale și esențiale despre obiecte și fenomene, dar și relațiile dintre acestea. </h4> 
+                    <h4>Noțiunea se fixează prin cuvânt și este unitatea de bază a gândirii. Ea este întotdeauna generală, dar se situează la diferite niveluri de generalitate. Acest lucru este ilustrat prin „Piramida Conceptelor” (a noțiunilor) </h4>
+                    <img src="../../../../assets/images/piramidaConceptelor.jpg" alt="Piramida piramidaConceptelor" class="image">
+                    <h5 style="text-align: center;"> Piramida Conceptelor</h5>
+                    <h4>Noțiunile de la baza piramidei, care încă fac referire la trăsături particulare, mai puțin esențiale, se numesc <b>noțiuni empirice</b>. Noțiunile dinspre vârful piramidei cuprinde doar esențialul și generalul, astfel acestea se numesc <b>noțiuni științifice</b>. Totodată, noțiunile se situează și la diferite niveluri de abstractizare, adică noțiunile empirice sunt în același timp <b>noțiuni concrete</b>, iar noțiunile științifice și <b>noțiuni abstracte</b>(ideea).</h4>
+                    <h4>În formarea noțiunilor la mințile tinere se pornește de la materialul concret, care prin exercițiu devine interiorizat, și cu ajutorul experienței și comunicării cu adulții se ajunge la formarea noțiunilor concrete.</h4>
+                    <h3><b>Judecata</b></h3>
+                    <h4>Judecata se referă la raporturile de supraordonare, subordonare și coordonare dintre noțiuni.</h4>
+                    <h3><b>Raționamente</b></h3>
+                    <h4>Raționamentul este activitatea de gândire care pornind de la niște judecăți (premise, propoziții) adevărate ajungem la altele noi.</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onStrThkClick()"> 
+                    Structura gândirii
+                </button>
+
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="strThk === true" class="content">
+                    <h4>Gândirea are cea mai complexă structură dintre toate procesele psihice, aceasta fiind ilustrată de către psihologul american J. P. Guilford sub forma unui cub. </h4>
+                    <img src="../../../../assets/images/cubG.JPG" alt="Cubul lui Guilford" class="image">
+                    <h5> Imagine preluată din: „Popescu-Neveanu, P., Creţu, T., & Zlate, M. (1994). Psihologie: manual pentru clasa a Xa şcoli normale şi licee. Editura Didactică şi Pedagogică.”</h5>
+                    <h4>
+                        Dacă am prezenta în mod schematic acest cub, am putea spune despre structura gândirii că este formată din:<br>
+                        •<u>conținuturi</u>: simboluri, figurativ, schematic, comportamentale; <br>
+                        •<u>operații</u> (ale gândirii): analiza, sinteza, comparația, abstractizarea, generalizarea; <br>
+                        •<u>produse</u> (ale gândirii): noțiuni, judecăți, raționamente.
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onRezPrbClick()"> 
+                    Rezolvarea de probleme
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="rezPrb === true" class="content">
+                    <h4>Știm că printre caracteristicile gândirii regăsim și capacitatea acesteia de a rezolva probleme. Dar când putem spune că suntem puși în fața unei probleme? Constatăm că am întâmpinat o problemă atunci când există un obstacol între subiect și lume, când avem o disconcordanță între cerințele situației și posibilitățile noastre.</h4>
+                    <img src="../../../../assets/images/problema.JPG" alt="Schema apariției problemei" class="image">
+                    <h4><b>Etape de rezolvare a unei probleme</b> </h4>
+                    <h4><b>1. Punerea problemei</b>: reformularea, simplificarea și înțelegerea problemei</h4>
+                    <h4><b>2. Formularea ipotezelor</b>: stabilim ce trebuie să facem și care sunt pașii pe care îi vom urma.</h4>
+                    <h4><b>3. Procesul rezolutiv</b>: rezolvarea propriu-zisă a problemei. În urma acestei etape fie vom ajunge la confirmarea ipotezei, situație în care problema e soluționată, fie vom ajunge la infirmarea ipotezei și astfel este necesară regândirea rezolvării problemei.</h4>
+                </div>
+            </div>
         </div>
     </div>    
 </div>    

@@ -30,4 +30,28 @@ export class ThinkingComponent implements OnInit {
   onThkOpClick() {
     this.thkOp = !this.thkOp;
   }
+
+  thkStrategy = false;
+
+  onThkStrategyClick() {
+    this.thkStrategy = !this.thkStrategy;
+  }
+
+  njr = false;
+
+  onNJRClick() {
+    this.njr = !this.njr;
+  }
+
+  strThk = false;
+
+  onStrThkClick() {
+    this.strThk = !this.strThk;
+  }
+
+  rezPrb = false;
+
+  onRezPrbClick() {
+    this.rezPrb = !this.rezPrb;
+  }
 }
