@@ -1,1 +1,97 @@
-<p>thinking works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Gândirea</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsThkClick()"> 
+                    Ce este gândirea?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsThk === true" class="content">
+                    <h4>
+                        Gândirea este un proces psihic cognitiv-superior și logic prin care se prelucrează însușirile generale și esențiale ale obiectelor și fenomenelor, precum și relațiile dintre acestea. 
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onThkCaracteristicClick()"> 
+                    Caracteristicile gândirii
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="thkCaracteristic === true" class="content">
+                    <h4>
+                        Gândirea ocupă în sistemul psihic uman un loc central deoarece aceasta reprezintă cel mai înalt nivel de prelucrare a informațiilor despre noi și despre lumea exterioară. Caracteristicile gândirii sunt proprietăți specifice acesteia care îi redau caracterul unic și îi susțin activitatea.
+                    </h4>
+                    <h4>
+                        <b>Caracterul mijlocit:</b> gândirea nu opereză direct asupra realității, ci asupra informațiilor furnizate de procesele senzoriale.
+                    </h4>
+                    <h4>
+                        <b>Caracterul general-abstract</b>: gândirea se desfășoară permanent pe direcția evidențierii însușirilor generale și esențiale al obiectelor și fenomenelor și a subordonării unor modele ideale degenrale(noțiuni, judecăți, raționamente, principii, legi).
+                    </h4>
+                    <h4>
+                       Gândirea reprezintă <b>capacitatea de a rezolva probleme</b>; în această accepțiune, gândirea se apropie de inteligență.
+                    </h4>
+                    <h4>
+                        Gândirea are <b> structura</b> cea mai închegată și mai coerentă schemă de organizare structural-funcțională dintre toate procesele psihice particulare. această structură este formată în cadrul logicii.
+                    </h4>
+                    <h4>
+                        <b>Flexibilitatea</b> gândirii este proprietatea prin care aceasta poate să realizeze o modificare promtă a unghiului de abordare a unei probleme, a unui obiect.
+                    </h4>
+                    <h4>
+                        <b>Fluiditatea sau cursivitatea</b> se referă la densitatea ideilor, a opiniilor, a soluțiilor pe care gândirea le produce, desfășoară în unitatea de timp
+                    </h4>
+                    <h4>
+                        <b>Originalitatea gândirii</b> reprezintă gradul de noutate și ineditul produselor și strategiilor gândirii.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onThkOpClick()"> 
+                    Operațiile gândirii
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="thkOp === true" class="content">
+                    <h4>
+                        Procesul de trecere a acțiunilor exterioare, materiale concrete în acțiuni mintale se numeste interiorizare și este considerat mecanismul fundamental al gândirii. Odată interiorizate, acțiunile sunt prelucrate de către gândire prin multiplele operații de care aceasta dispune.
+                    </h4>
+                    <h4>
+                        <b>Analiza</b> presupune descompunerea mintală a unui întreg în părțile sale componente.
+                    </h4>
+                    <h4>
+                        <b>Comparația</b> constă în stabilirea pe plan mintal a asemănărilor și deosebirilor după un anumit criteriu prestabilit.
+                    </h4>
+                    <h4>
+                        <b>Sinteza</b> este operația inversă analizei, care constă în reunirea pe plan mintal a elementelor unui întreg.
+                    </h4>
+                    <h4>
+                        <b>Abstractizarea</b> este operația de evidențiere pe plan mintal a însușirilor caracteristice, concomitentcu omiterea intenționată a altora.
+                    </h4>
+                    <h4>
+                        <b>Generalizarea</b> este operația de extindere a unei caracteristici prezente la una, două cazuri particulare, la o întreagă clasă de elemente.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>    
+</div>    
