@@ -1,1 +1,130 @@
-<p>reprezentation works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Reprezentările</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatAreReprClick()"> 
+                    Ce sunt reprezentările?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatAreRepr === true" class="content">
+                    <h4>
+                        Reprezentările sunt procese psihice cognitiv senzoriale prin care se cunosc însușirile concrete și caracteristice ale obiectelor și fenomenelor, sub forma unor imagini schematice, în condițiile în care acestea nu acționează direct asupra analizatorilor.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onReprRolClick()"> 
+                    Rolul reprezentărilor
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="reprRol === true" class="content">
+                    <h4>
+                        •Anticipează, coordonează, planifică și oganizează orice activitate. Reprezentarea va fi mereu cu un pas înaintea noastră și se va realiza mereu cu o viteză mult mai mare, decât realizarea mișcărilor propriu-zise. Astfel, totalitatea activităților și acțiunilor noastre trec mai întâi prin filtrul reprezentării.
+                    </h4>
+                    <h4>
+                        •Ajută la construirea sensului cuvintelor. Când spunem un cuvânt, ni-l reprezentăm mintal, astfel majoritatea cuvintelor pe care le stăpânim au o imagine reprezentativă  întipărită în memoria noastră.
+                    </h4>
+                    <h4>
+                        •Readuce obiectul sau fenomenul în mintea nostră. În momentul în care căutăm un obiect, noi deja avem reprezentarea lui adusă în minte, iar astfel, la vederea obiectului o sa-l recunoaștem ca fiind ceea ce căutăm. Cât despre fenomene, în orice activitate înainte de a acționa, ne putem reprezenta mișcările pe care dorim să le facem, iar după ce ne-am stabilit pașii în minte, acționăm și în realitate.
+                    </h4>
+                    <h4>
+                        •Reprezentările facilitează de asemenea orientarea în spațiu. Cu ajutorul reprezentărilor, la nivel mintal, vom fi mereu cu un pas înaintea executării propriu-zisă a mișcărilor. Astfel, vom putea „calcula” traseul pe care dorim să ne deplasăm, mișcările pe care dorim să le facem, înainte cu o anumita durată de timp de execuție. 
+                    </h4>
+                    <h4>
+                        •Datorită naturii ei, reprezentarea prezină o funcție cathartică. Aceasta vizează detensionarea, relaxarea subiectului. Prin imaginile mintale pe care le putem crea cu ajutorul reprezentărilor, ne putem detașa de realitate și să „petrecem” o anumită durată de timp focusați pe imaginilie reprezentării.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onReprTypesClick()"> 
+                    Tipuri de reprezentare
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="reprTypes === true" class="content">
+                    <h4>
+                        După analiatorul implicat în producerea lor reprezentările pot fi <b>auditive</b>, <b>vizuale</b>, <b>olfactive</b>, <b>cutanate</b> și <b>gustative</b>.
+                    </h4>
+                    <h4>
+                        După prezența sau absența voinței declanșării procesului reprezentării:
+                    </h4>
+                    <h4>
+                        <ul>
+                            <li><b>Reprezentări voluntare</b>: este prezentă voința;</li>
+                            <li><b>Reprezentări involuntare</b>: este absentă voința;</li>
+                        </ul>
+                    </h4>
+                    <h4>
+                        După gradul de generalitate prezent:
+                    </h4>
+                    <h4>
+                        <ul>
+                            <li><b>Reprezentări generale</b>: această categorie include totalitatea reprezentările comune la întreaga societate, precum reprezentarea figurilor geometrice.</li>
+                            <li><b>Reprezentări particulare/individuale</b>: în această categorie regăsim reprezentările specifice (cunoscute) pentru o singura persoană, și care pentru fiecare persoană au o formă diferită, de exemplu obiectul preferat, chipul mamei etc.</li>
+                        </ul>
+                    </h4>
+                    <h4>
+                        în funcție de ce alte procese psihice sunt implicate în procesul reprezentării:
+                    </h4>
+                    <h4>
+                        <ul>
+                            <li><b>Reprezentări reproductive</b>: se realizează în special cu ajutorul memoriei, implică readucerea aminte a informației din memorie și utilizarea acesteia în crearea imaginii procesului reprezentării.</li>
+                            <li><b>Reprezentări anticipative</b>: această categorie de reprezentări implică gândirea și imaginația. Pentru a anticipa ce se va întâmpla avem nevoie de gândire pentru a stabili raționamente și judecăți, dar și de imaginație pentru a putea lua în calcul și situațiile noi care ar putea să se întâmple.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onReprCharacteristicClick()"> 
+                    Caracteristicile reprezentării
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="reprCharacteristic === true" class="content">
+                    <h4>
+                        Reprezentarea reflectă imagini concrete și intuitive ale însușirilor caracteristice ale obiectelor și fenomenelor, astfel aceasta este o imagine unitară dar schematică. În același timp, reprezentarea este o imagine secundară deoarece apare pe baza percepției, se produce în absența obiectului care a dul la formarea percepției. Din același motiv sunt mai sărace în conținut, deoarece nu reflectă detalii, nuanțele cromatice se rezumă la culorile fundamentale exprimate printr-un nivel mai ridicat de generalizare intuitivă. Totodată, realizarea lor la nivel mintal le face să fie mai instabile deoarece, din moment în moment, ne putem focaliza atenția pe stimulii care acționează asupra noastră din exterior.
+                    </h4>
+                    <h4>
+                        În procesul reprezentării unui obiect avem posibilitatea de a-l desprinde de contextul sppațio-temporal în care se află, deci obiectul poate fi detașat de câmpul perceptiv. Deasemenea, reprezentarea are o mai amre libertate față de schema structurală a obiectului, putem aduce modificări de orice natură obiectului reprezentat. În același timp, observarea unui obiect prin intermediul reprezentării este facilitată prin imaginea panoramică pe care aceasta ne-o oferă asupra obiectului. Acest lucru este posibil datorită faptului că reprezentarea reconstituie la nivel mintal imaginea integrând totalitatea caracteristicilor esențiale, iar apoi redă integral și simultan toate informațiile despre un obiect.
+                    </h4>
+                    <h4>
+                        Intensitatea reprezentărilor este mai slabă deoarece apar în absența obiectelor. Calitatea acestora este redată de: bogăția experienței perceptive, de numărul, calitatea și intensitatea percepțiilor; de operațiile gândirii implicate în prelucrarea datelor perceptive; de trăirile afective, motivația și experiența anterioară a subiectului.
+                    </h4>
+                    <h4>
+                        Reprezentarea dispune și de câteva funcții caracteristice, dintre care amintim: funcția de prezentare-readucere în minte a imaginilor obiectelor și fenomenelor și funcția de concretizare. 
+                    </h4>
+                    <h4>
+                        Reprezentarea apare în jurul vârstei de 10-12 luni și este un proces psihic deosebit de important deoarece reprezintă punctul de plecare în evoluția gândirii. Acest fapt redă natura lor duală: <b>intuitv-figurativă</b> și <b> operațional-intelectivă</b>.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
