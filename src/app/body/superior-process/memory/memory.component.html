@@ -1,1 +1,185 @@
-<p>memory works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Memoria</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsMmClick()"> 
+                    Ce este memoria?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsMm === true" class="content">
+                    <h4>
+                        Memoria este un proces psihic cognitiv-superior prin care memorăm, stocăm și reactualizăm experiența anterioară.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMmCaracteristicClick()"> 
+                    Caracteristicile memoriei
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mmCaracteristic === true" class="content">
+                    <h4>Memoria dispune de variate caracteristici care îi redau caracterul unic și complexitatea.</h4>
+                    <h4>Memoria este <b>activă</b>, adică dispune de operații proprii pentru prelucrări, evaluîri și organizări logice, astfel încât în urma memorării se aduc modificări atât în materialul memorat cât și asupra persoanei care memorează.</h4>
+                    <h4>Memoria este <b>selectivă</b>, ceea ce presupune faptul că reține și reactualizează numai o parte din informații.</h4>
+                    <h4>Memoria dispune de proprietatea de a fi <b>inteligibilă</b>. Acest lucru determină și facilitează înțelegerea informațiilor memorate și organizarea lor.</h4>
+                    <h4>O altă caracterisică a memoriei este aceea de a fi <b>situațională/contextuală</b>. Astfel are loc înțelegerea informațiilor și organizarea materialului după criterii semnificative, specifice contextului dat.</h4>
+                    <h4>Utilizarea tehnicilor de memorare și reactualizare redau caracterul <b>mijlocit</b> al memoriei.</h4>
+                </div>
+            </div>    
+            <hr><div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMmPandFClick()"> 
+                    Procesele și formele memoriei
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mmPandF === true" class="content">
+                    <h3>
+                        <b>I. Memorarea</b>
+                    </h3>
+                    <h4>
+                        Reprezintă procesul în care are loc interiorizareaa informației, a conținutului de memorat. Se mai nunește și întipărire sau engramare. Aceasta se poate clasifica după următoarele criterii:
+                        <ul>
+                            <li>După prezența sau absența voinței de a memora: 
+                                <ol>
+                                    <li><b>memorare voluntară</b>: nu presupune efor din partea subiectului;</li>
+                                    <li><b>memorare involuntară</b>: se realizează cu un consum mai mare de energie psiho-nervoasă;</li>
+                                </ol>
+                            </li>
+                            <li>După prezența sau absența gândirii în procesul de memorare:
+                                <ol>
+                                    <li><b>memorare logică</b>: conținutul memorat este structurat după criterii semnificative și înțeles de către subiect;</li>
+                                    <li><b>memorare mecanică</b>: se realizează prin simpla întipărire a noțiunilor, fără a avea capacitatea de a creea relații, legături între conținuturi.</li>
+                                </ol> 
+                            </li>
+                        </ul>
+                    </h4>
+                    <h3>
+                        <b>II. Păstrarea/stocarea</b>
+                    </h3>
+                    <h4>Este un proces activ și dinamic care implică organizarea și reorganizarea informațiilor memorate. Acestea din urmă capătă valențe noi.<br> După durata păstrării memoria este
+                        <ol>
+                            <li><b>memorie senzorială</b>: este o memorie de foarte scurtă durată, durează câteva secunde, dar este și foarte importantă deoarece face posibilă realizarea procesului perceptiv;</li>
+                            <li><b>memorie de scurtă durată (MSD)</b>: durează între 8 și 10 minute și reprezintă memoria de lucru;</li>
+                            <li><b>memorie de lungă durată (MLD)</b>: durează de la 8-10 minute până chiar și întreaga viață.</li>
+                        </ol>
+                    </h4>
+                    <h3>
+                        <b>III. Reactualizarea</b>
+                    </h3>
+                    <h4>
+                        Reprezintă momentul în care are loc verificarea, readucerea în minte a informațiilor memorate.
+                    </h4>
+                    <h4>
+                        Reactualizarea se poate realiza în următoarele feluri:
+                        <ul>
+                            <li><b>recunoaștere</b>: reprezintă realizarea reactualizării în prezența obiectului;</li>
+                            <li><b>reproducere</b>: reactualizarea se face în absența obiectului.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr><div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMmFactorsClick()"> 
+                    Factori care optimizează memoria 
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mmFactors === true" class="content">
+                    <h4>
+                        Memoria este un proces psihic cognitiv-superior prin care memorăm, stocăm și reactualizăm experiența anterioară.
+                    </h4>
+                    <h4>Pot varia în funcție de materialul de memorat, factori ambientali și subiectul care realizează memorarea.</h4>
+                    <h4><b>Legat de materialul de memorat:</b>
+                        <ul>
+                            <li>Prelucrarea materialului de memorat;</li>
+                            <li>Scoaterea în evidență a ideilor esențiale;</li>
+                            <li>Realizarea de legături, relații între informații;</li>
+                            <li>Utilizarea de mnemoscheme (tehnici care ne vor face să memorăm și reactualizăm mai ușor materialul).</li>
+                        </ul>
+                    </h4>
+                    <h4><b>Factori ambientali:</b>
+                        <ul>
+                            <li>Asigurarea liniștii în încăperea în care desfășurăm procesul de memorare;</li>
+                            <li>Locul în care memorăm să fie unul luminisos, aerisit, ordonat și fără elemente care să ne distragă atenția.</li>
+                        </ul>
+                    </h4>
+                    <h4><b>Factori subiectivi:</b>
+                        <ul>
+                            <li>Creearea unei motivații pentru memorare; </li>
+                            <li>Alocarea unui anumit interval de timp doar pentru memorare/reactualizare;</li>
+                            <li>Insistarea asupra fragmentelor care ne creează dificultăți de memorare.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr><div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onForgettingClick()"> 
+                    Uitarea
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="forgetting === true" class="content">
+                    <h4>Uitarea este un fenomen psihic natural si necesar.</h4>
+                    <h4>
+                        <b>De ce este necesar?</b>
+                        <ul>
+                            <li>preîntâmpină supraaglomerarea psihicului</li>
+                            <li>este benefică vieții emoționale, eliminând uneori evenimentele neplăcute din viața noastră</li>
+                        </ul>
+                    </h4>
+                    <h4>
+                        <b>Formele uitării</b>
+                        <ul>
+                            <li>lapsus: uitarea memontană</li>
+                            <li>amnezia: uitarea totală</li>
+                            <li>reactualizările parțiale și relativ eronate</li>
+                        </ul>
+                    </h4>
+                    <h4>
+                        <b>De ce uităm?</b>
+                        <ul>
+                            <li>oboseală, deficit de atenție</li>
+                            <li>proasta observare a învățării (învățare mecanică, fără a înțelege)</li>
+                            <li>nu facem reactualizări</li>
+                            <li>probleme de sănătate, starea de sănătate</li>
+                        </ul>
+                    </h4>
+                    <h4>
+                        <b>Ce facem?</b>
+                        <ul>
+                            <li>punem în practică ce învățăm</li>
+                            <li>repetiția</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
