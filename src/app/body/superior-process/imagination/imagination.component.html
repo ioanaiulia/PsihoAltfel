@@ -1,1 +1,108 @@
-<p>imagination works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Imaginația</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsImgClick()"> 
+                    Ce este imaginația?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsImg === true" class="content">
+                    <h4>
+                        Imaginația este un proces psihic cognitiv-superior prin care obținem ceva nu pe baza combinării și recombinării experienței anterioare.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onImgCaracteristicClick()"> 
+                    Caracteristicile imaginației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="imgCaracteristic === true" class="content">
+                    <h4>
+                        Caracteristicile imaginației sunt:
+                        <ul>
+                            <li><b>fluiditatea</b>: reprezintă posibilitatea de a ne imagina într-un timp scurt un număr mare de idei, imagini;</li>
+                            <li><b>flexibilitatea</b>: constă în modificarea promptă a unghiului de realizare a combinării, a procedeului imaginativ utilizat;</li>
+                            <li><b>originalitatea</b>: este gradul de noutate a produsului obținut în urma procesului imaginativ, raportat atât la experiența noastră (personală), cât ți la cea socială.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onImgProcClick()"> 
+                    Procesele imaginației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="imgProc === true" class="content">
+                    <h4>
+                        Acestea sunt modurile în care imaginația operează cu informația, conținutul. 
+                        <ol>
+                            <li><b>Aglutinarea (lipire/unire)</b>: constă în asamblarea pe plan mintal a unor părți aparținând unor obiecte sau ființe diferite.<br><u>Exemplu:</u> centaur, sirenă, telefon mobil.</li>
+                            <li><b>Amplificarea și/sau diminuarea</b>: reprezintă modificarea dimensiunilor unei structuri inițiale. <br><u>Exemplu: </u> Degețica, minionii, ștrumfii.</li>
+                            <li><b>Multiplicarea și/sau omisiunea</b>: se referă la modificarea numărului de elemente a unui întreg. <br><u>Exemplu: </u>ciclop, balaur cu 7 capete.</li>
+                            <li><b>Schematizarea</b>: presupune omiterea intenționată a unor însușiri și eveidențierea altora. <br><u>Exemplu:</u> caricatura.</li>
+                            <li><b>Empatia</b>: reprezintă transpunerea imaginară în locul altcuiva. Ajută la înțelegerea altor persoane.</li>
+                        </ol>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onImgFormsClick()"> 
+                    Formele imaginației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="imgForms === true" class="content">
+                    <h4>Imaginația se divide în două mari categorii:
+                    </h4>
+                    <br>
+                    <h3><b>I. Imaginație involuntară</b></h3>
+                    <h4>
+                        <ol>
+                            <li><b>visul din timpul nopții</b>: reprezintă o suită de imagini și fenomene psihice care survin în timpul somnului și față de care subiectul este mai mult spectator (de aici deducem caracterul scenic). Totodată visul poate avea și o oarecare însemnătate pentru subiect, dorințele și trăirile acestuia fiind „deghizate” sub diferite forme (de aici reiese caracterul simbolic al visului).</li>
+                            <li><b>reveria</b>: este o stare de detașare față de realitate. Subiectul experimentează mintal împlinirea dorințelor și trebuințelor, astfel având o oarecare satisfacție care va reduce tensiunea internă psihică generată de existența acestora.</li>
+                        </ol>
+                    </h4>
+                    <br>
+                    <h3><b>II. Imaginație voluntară</b></h3>
+                    <h4>
+                        <ol>
+                            <li><b>imaginație reproductivă</b>: este o formă activă, conștientă și voluntară, care constă în construirea mintală a imaginii unor realități existente, în prezent sau trecut, dar care nu pot fi percepute direct.</li>
+                            <li><b>imaginație creatoare</b>: este cea mai complexă și valoaroasă formă a imaginației voluntare. Aceasta este orintată spre ceea ce este posibil, ceea ce ține de viitor, ceea ce e nou. Presupune elaborarea de reprezentări și de noi idei pe baza combinării și recombinării experienței anterioare.</li>
+                            <li><b>visul de perspectivă</b>: presupune proiectarea mintală a drumului propriu de dezvoltare conform disponibilităților personale și cerințelor socientății.</li>
+                        </ol>
+                    </h4>
+
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
+
