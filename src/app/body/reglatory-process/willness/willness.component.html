@@ -1,1 +1,75 @@
-<p>willness works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Voința</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsVClick()"> 
+                    Ce este voința?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsV === true" class="content">
+                    <h4>
+                        Voința este un proces psihic cognitiv reglator prin intermediul căruia omul își mobilizează energia psiho-nervoasă în vederea depășirii obstacolelor.
+                    </h4>
+                    <h4><b>Obstacolul</b> reprezintă o confruntare între posibilitățile omului și condițiile obiective ale unei activități.</h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onVStepsClick()"> 
+                    Etapele procesului volutiv
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="vsteps === true" class="content">
+                    <h4>
+                        <ul>
+                            <li><b>Articularea motivațională</b>: în funcție de motivele pe care le avem ne stabilim obiectivele, scopurile vizate în desfășurarea acțiunii.</li>
+                            <li><b>Analiza și lupta motivelor</b>: este procesul în care analizăm, comparăm motivele pe care le avem pentru a putea alege unul singur.</li>
+                            <li><b>Luarea hotărârii</b>: în urma analizei fiecare individ va alege un anumit scop în funcție de caracteristicile subiective. Pentru persoanele cu o voință slabă câștigă variantele cu o mai mare stare de spirit. Pentru persoanele cu o voință mai puternică câștigă varianta mai matură.</li>
+                            <li><b>Îndeplinirea planului sau faza execuției</b>: este etapa în care are loc defășurarea propriu-zisă a activității, acțiunilor.</li>
+                            <li><b>Faza de evaluare și de verificare a rezultatelor</b>: în această etapă se face o constatare cu privire la rezultatul obținut și se formulează concluziile.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onCVClick()"> 
+                    Calitățile voinței
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="cv === true" class="content">
+                    <h4>
+                        Calitățile voinței sunt:
+                        <ol>
+                            <li><b>Puterea voinței</b>: reprezintă intensitatea efortului</li>
+                            <li><b>Perseverența</b>: întinderea în timp a voinței</li>
+                            <li><b>Independența voinței</b>: tendința constană de a lua decizii pe baza chibzuinței proprii</li>
+                            <li><b>Promtitudinea deciziei</b>: rapiditatea cu care omul deliberează într-o situație complexă și urgentă și adoptă hotărârea cea mai potrivită.</li>
+                        </ol>
+                    </h4>
+                    <h4>Calitățile voinței integrate în structuri complexe devin trăsături voluntare de caracter.</h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
