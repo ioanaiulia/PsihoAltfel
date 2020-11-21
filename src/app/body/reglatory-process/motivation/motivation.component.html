@@ -1,1 +1,115 @@
-<p>motivation works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Motivația</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsMtClick()"> 
+                    Ce este motivația?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsMt === true" class="content">
+                    <h4>
+                        Motivația este un proces psihic reglator care declanșează, orientează și susține energetic activitatea.
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMtCaracteristicClick()"> 
+                    Clasificarea motivației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mtCaracteristic === true" class="content">
+                    <h4>
+                        Motivatia poate fi:
+                        <ul>
+                            <li><b>pozitivă</b>: reprezintă un imbold positiv, o încurajare</li>
+                            <li><b>negativă</b>: precum critica, amenințarea</li>
+                            <li><b>intrinsecă</b>: adică interioară, ceea ce ne dorim noi</li>
+                            <li><b>extrinsecă</b>: adica exterioară, cerințe sociale sau ale altor persoane</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMtComponentClick()"> 
+                    Componentele motivației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mtComponent === true" class="content">
+                    <h3><b>I. Trebuințele</b>
+                    <h4>Trebuite sunt privite ca niște nevoi care semnalizează cerințele de reechilibrare sub forma unor stări și imbolduri. Psihologul american H. Maslow a realizat o clasificare a acestora prin „Piramida trebuințelor”.</h4>
+                        <img src="../../../../assets/images/PiramidaTr.jpg" alt="Priramida lui Maslow" class="image">
+                        <h5 style="text-align: center;">Piramida trebuințelor</h5>
+                    </h3>
+                    <h3><b>II. Motivele</b></h3>
+                    <h4>Motivele sunt trebuințe atât de puternice încât declanșează acțiunile prin care să se satisfacă.</h4>
+                    <h3><b>III. Interesele</b></h3>
+                    <h4>Interesele sunt orientări selective, relativ stabile și active spre anumite domenii.</h4>
+                    <h3><b>IV. Convingerile</b></h3>
+                    <h4>Convingerile sunt idei puternic implementate în personalitatea noastră, de o mare intensitate afectivă, care determină mobilizarea subiectului spre acțiune.</h4>
+                    <h3><b>V. Idealurile</b></h3>
+                    <h4>Idealurile sunt proiecții ale subiectului în sisteme de imagini și idei care îi ghidează întreaga existență. </h4>
+                    <h3><b>VI. Concepția despre lume și viață</b></h3>
+                    <h4>Concepția despre lume și viață cuprinde ansamblul părerilor, ideilor, teoriilor pe care le are un individ despre om, natură, societate.</h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onMtFunctionClick()"> 
+                    Funcțiile motivației
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="mtfunction === true" class="content">
+                    <h4><b>Motivația prezintă următoarele funcții:</b></h4>
+                    <h4>
+                        • Funcția de activare internă difuză și de semnalizare a unui dezechilibru fiziologic sau psihologi;
+                    </h4>
+                    <h4>• Funcția de factor declanșator al acțiunilor efective;</h4>
+                    <h4>• Funcția de autoreglare a conduitei.</h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onOptimumClick()"> 
+                    Optimum motivațional
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="optimum === true" class="content">
+                    <h4>În momentul în care percepem corect dificultatea unei sarcini de lucru în intelectul nostru se realizează un echilibru între caracteristicile sarcinii de lucru și acțiunile necesare desfășurării acesteia. Când acest echilibru are loc putem spune ca am atins optimum motivațional.</h4>
+                    <h4>În caz contrar, la perceperea greșită a dificultății sarcinii de lucru vom întampinal două posibile finalități. Fie va avea loc supraestimarea sarcinii, ceea ce va duce la o supramotivare, caz care duce la irosirea energiei psiho-nervoase, oboseală, stres, sentiment de satisfacție trăit incomplet. În cealaltă extremă va avea loc subestimarea sarcinii urmată de o subestimare care inevitabil va duce spre eșec.</h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
