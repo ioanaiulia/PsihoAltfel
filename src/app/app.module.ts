@@ -8,13 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
-import { AboutPersonalityComponent } from './body/personality/about-personality/about-personality.component';
-import { CharacterComponent } from './body/personality/character/character.component';
-import { CreativityComponent } from './body/personality/creativity/creativity.component';
-import { SkillsComponent } from './body/personality/skills/skills.component';
-import { TemperamentComponent } from './body/personality/temperament/temperament.component';
-import { AboutPsychicActivitiesComponent } from './body/psychic-activities/about-psychic-activities/about-psychic-activities.component';
-import { LanguageComponent } from './body/psychic-activities/language/language.component';
 import { AffectionComponent } from './body/reglatory-process/affection/affection.component';
 import { AttentionComponent } from './body/reglatory-process/attention/attention.component';
 import { MotivationComponent } from './body/reglatory-process/motivation/motivation.component';
@@ -26,15 +19,12 @@ import { ImaginationComponent } from './body/superior-process/imagination/imagin
 import { MemoryComponent } from './body/superior-process/memory/memory.component';
 import { ThinkingComponent } from './body/superior-process/thinking/thinking.component';
 import { HomeComponent } from './header/home/home.component';
+import { PersonalityComponent } from './body/personality/personality.component';
+import { PsychicActivitiesComponent } from './body/psychic-activities/psychic-activities.component';
 
 const appRoutes: Routes = [
-  {path: 'about-personality', component: AboutPersonalityComponent },
-  {path: 'character', component: CharacterComponent },
-  {path: 'creativity', component: CreativityComponent },
-  {path: 'temperament', component: TemperamentComponent },
-  {path: 'skills', component: SkillsComponent},
-  {path: 'about-psychic-activities', component: AboutPsychicActivitiesComponent},
-  {path: 'language', component: LanguageComponent},
+  {path: 'personality', component: PersonalityComponent},
+  {path: 'psychic-activities', component: PsychicActivitiesComponent},
   {path: 'affection', component: AffectionComponent},
   {path: 'attention', component: AttentionComponent},
   {path: 'motivation', component: MotivationComponent},
@@ -65,16 +55,11 @@ const appRoutes: Routes = [
     WillnessComponent,
     AttentionComponent,
     AffectionComponent,
-    AboutPersonalityComponent,
-    TemperamentComponent,
-    CharacterComponent,
-    SkillsComponent,
-    CreativityComponent,
-    AboutPsychicActivitiesComponent,
-    LanguageComponent,
+    PersonalityComponent,
     DropdownDirective,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    PsychicActivitiesComponent
   ],
   imports: [
     BrowserModule,
