@@ -1,1 +1,100 @@
-<p>affection works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Afectivitatea</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsAFClick()"> 
+                    Ce este afectivitatea?
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsAF === true" class="content">
+                    <h4>Procesele afective sunt procese psihice reglatorii care reflectă relațiile dintre subiect și obiect sub formă de trăiri.</h4>
+                </div>                
+            </div>    
+            <hr>
+            
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onCaracteristciClick()"> 
+                    Caracteristicile proceselor afective
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="caract === true" class="content">
+                    <h4>
+                        <ul>
+                            <li><u>polaritatea</u>: se referă la faptul că procesele afective gravitează fie în jurul polului pozitiv, fie în jurul polului negativ rezultând astfel perechi de elemente contrare (simpatie-antipatie, bucurie-tristețe, entuziasm-dezamăgire etc);</li>
+                            <li><u>intensitatea proceselor afective</u>: constă în forța cu care acestea se manifestă;</li>
+                            <li><u>durata proceselor afective</u>: se rezumă la întinderea, persistența în timp a acestora, indiferent dacă stimulul este prezent sau absent;</li>
+                            <li><u>mobilitatea proceselor afective</u>: exprimă fie trecerea rapidă în interiorul aceleiași trăiri emoționale de la o fază la alta, fie trecerea de la o stare afectivă la alta;</li>
+                            <li><u>expresivitatea proceselor afective</u>: constă în capacitatea acestora de a se exterioriza (prin mimică, pantomimică, modificări de natură vegetativă, schimbarea vocii etc).</li>
+                        </ul>
+                    </h4>
+                </div>                
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onClasificareClick()"> 
+                    Clasificarea proceselor afective
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="clas === true" class="content">
+                    <h4>
+                        În funcție de caracteristicile dominante exprimate în procesele afective distingem următoarele forme:
+                        <ol>
+                            <li><u>Procese afective primare</u>: 
+                                <ul>
+                                    <li>În această categorie se includ afectele. Acestea au caracter spontan, sunt slab organizate, instabile, greu de controlat, intensitate mare, expresivitate mare și durată foarte scurtă.</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li><u>Procese afective secundare/complexe</u>:
+                                <ul>
+                                    <li>Aici întâlnim emoțiile și dispozițiile ca procese afective. Ele se caracterizează prin intensitate mai mică decât la afecte, durată mai mare decât la afecte (durează atâta timp cât persistă stimulul care le generează), expresivitate mai mică decât la afecte și sunt mai bine controlate decât afectele.</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li><u>Procese afective superioare</u>:
+                                <ul>
+                                    <li>Acestea sunt caracterizate prin intensitate și expresivitate mult mai controlate; stabilitate și durabilitate mare, iar mobilitatea este redusă. Se divid în două categorii:
+                                        <ul>
+                                            <li><b>sentimentele</b>: sunt procese afective de lungă durată, intense, relativ stabile și specific umane; există o procesualitate a formării sentimentelor:
+                                                <ol>
+                                                    <li><b>faza de cristalizare</b>: în care se dezvoltă sentimentele și se percep doar aspectele pozitive;</li>
+                                                    <li><b>faza de maturizare</b>: conștientizarea aspectelor mai puțin plăcute, realitatea fără filtru a relație dintre subiect și obiect;</li>
+                                                    <li><b>faza de decristalizare</b>: acceptarea sau refularea realității, concomitent cu continuarea sau abandonarea relației subiect-obiect.</li>
+                                                </ol>
+                                            </li>
+                                            <li><b>pasiunile</b>: sunt de o intensitate și durată mare; acestea ghidează și coordonează viața unui om; acestea pot fi:
+                                                <ul>
+                                                    <li><b>pasiuni nobile</b>: sunt cele pozitive, cele ce ne stimulează spre un stil de viață optim</li>
+                                                    <li><b>pasiuni oarbe</b>: sunt cele negative precum viciile, narcisismul</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </h4>
+                </div>                
+            </div>    
+        </div>
+    </div>
+</div>
