@@ -28,5 +28,4 @@ export class AffectionComponent implements OnInit {
   onClasificareClick() {
     this.clas = !this.clas;
   }
-
 }

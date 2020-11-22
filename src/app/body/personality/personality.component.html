@@ -1,1 +1,148 @@
-<p>personality works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="title">
+                <h1> Personalitatea</h1>
+            </div>
+            <br>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onWhatIsPersClick()"> 
+                    Despre personalitate
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="whatIsPers === true" class="content">
+                    <h4>
+                        Personalitatea este un sistem bio-psiho-socio cultural.
+                    </h4>
+                    <h4>Omul poate fi privit ca un tot unitar și relativ autonom o <u>entitate</u>. Personalitatea este unică și originală. </h4>
+                    <h4>Modelul general uman de personalitate:
+                        <ol>
+                            <li>apartenența la speța umană;</li>
+                            <li>ființă socială;</li>
+                            <li>ființă dotată cu gândire și voință;</li>
+                            <li>participare la cultură, dotare cu valori</li>
+                            <li>potențialul creativității</li>
+                        </ol>
+                    </h4>
+                    <h4>Realitatea umană se structurează astfel:
+                        <ul>
+                            <li><b>individ</b>: caracterul de sistem a organismului pe latură individualității acestuia; nu poate fi dezmembrat fără a-și pierde identitatea;</li>
+                            <li><b>individualitate</b>: ansamblul proprietăților distincte și originale ale unui individ;</li>
+                            <li><b>persoană</b>: specificarea umanului;</li>
+                            <li><b>personalitate</b>: concept care cuprinde întreg sistemul atributelor, structurilor și valurilor de care dispune o persoană.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onTempClick()"> 
+                    Temperamentul
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="temp === true" class="content">
+                    <h4>
+                        Temperamentul este latura dinamico-energetică a personalității.
+                    </h4>
+                    <h4>Din caracteristicile temperamentului, și anume forța, mobilitatea și echilibrul rezultă cele 4 tipuri temperamentale:
+                        <ul>
+                            <li><b>sangvinic</b>: puternic, echilibrat, mobil</li>
+                            <li><b>flegmatic</b>: puternic, echilibrat, inert</li>
+                            <li><b>coleric</b>: puternic, neechilibrat</li>
+                            <li><b>melancolic</b>: slab</li>
+                        </ul>
+                    </h4>
+                    <h4>Temperamentul este cea mai accesibilă și ușor constatabilă latură a personalității. Temperamentele îndeplinesc rol și în relațiile dintre oameni și în gruparea lor, cât și în raporturile educative.</h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onAptClick()"> 
+                    Aptitudini
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="apt === true" class="content">
+                    <h4>
+                        Aptitudinile sunt latura intrumental-operațională a pesonalității.
+                    </h4>
+                    <h4>Caracteristici:
+                        <ul>
+                            <li>aptitudinile se demonstrează întotdeauna prin reușita în activitate</li>
+                            <li>valoarea aptitudinilor trebuie pusă în legătură directă cu eficiența, calitatea și modul de îmbinare al operațiilor</li>
+                            <li>aptitudinile nu sunt egale cu capacitatea; aceasta din urmă fiind o aptitudine formată prin deprinderi rezultate din exerciții și îmbogățită cu o serie de cunoștințe adecvate</li>
+                            <li>aptitudinile elementare mijlocesc și conditționează acțiunile și eficiența lor</li>
+                            <li>aptitudinile generale (inteligența, spirit de observație, memorarea, creeativitatea) sunt utile în toate domeniile.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onCaractClick()"> 
+                    Caracterul
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="caract === true" class="content">
+                    <h4>
+                        Caracterul este latura relațional valorică a personalității.
+                    </h4>
+                    <h4>Caracteristici:
+                        <ul>
+                            <li><b>unitatea de caracter</b>: păstrarea conduitei de la o etapă la alta;</li>
+                            <li><b>originalitatea</b>: autenticitatea în însușirea și realizare unor valori gradul lor diferit de dezvoltare de la un individ la altul;</li>
+                            <li><b>bogăția</b>: multitudinea relațiilor stabilite cu viața socială;</li>
+                            <li><b>statornicia</b>: existența unei valori morale, a cărui manifestare în comportament ramâne fundamentală;</li>
+                            <li><b>plasticitatea</b>: restructurarea unor elemente a caracterului în raport cu noile cerințe impuse;</li>
+                            <li><b>tăria</b>: rezistența la acțiuni și influențe contrare scopurilor, convingerilor, sentimentelor care reprezintă linii de orientare.</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+            <div class="row">
+                <button 
+                    type="button" 
+                    class="btn btn-primary col-xs-4 senzation" 
+                    (click)="onCreativityClick()"> 
+                    Creativitatea
+                </button>
+            </div>    
+            <br>
+            <div class="row">
+                <div *ngIf="creativity === true" class="content">
+                    <h4>
+                        Creativitatea este o trăsătură complexă a personalității, care constă în capacitatea de a realiza ceva nou, original.
+                    </h4>
+                    <h4>Caracteristici:
+                        <ul>
+                            <li>noutatea produsului este evaluată după cota de originalitate (distanța dintre ce e nou și ceea ce preexistă ca fapt cunoscut și uzual în domeniul respectiv)</li>
+                            <li>orice subiect dispune de potențial creativ, însă talentul corespunde creativității de nivel superior</li>
+                            <li>demersurile creative pot fi spontane sau intenționate</li>
+                        </ul>
+                    </h4>
+                </div>
+            </div>    
+            <hr>
+        </div>
+    </div>
+</div>
