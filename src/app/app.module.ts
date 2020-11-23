@@ -17,10 +17,10 @@ import { ReprezentationComponent } from './body/sensitive-process/reprezentation
 import { SenzitivityComponent } from './body/sensitive-process/senzitivity/senzitivity.component';
 import { ImaginationComponent } from './body/superior-process/imagination/imagination.component';
 import { MemoryComponent } from './body/superior-process/memory/memory.component';
-import { ThinkingComponent } from './body/superior-process/thinking/thinking.component';
 import { HomeComponent } from './header/home/home.component';
 import { PersonalityComponent } from './body/personality/personality.component';
 import { PsychicActivitiesComponent } from './body/psychic-activities/psychic-activities.component';
+import { ThinkingComponent } from './body/superior-process/thinking/thinking.component';
 
 const appRoutes: Routes = [
   {path: 'personality', component: PersonalityComponent},
