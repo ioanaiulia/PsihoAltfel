@@ -21,6 +21,8 @@ import { HomeComponent } from './header/home/home.component';
 import { PersonalityComponent } from './body/personality/personality.component';
 import { PsychicActivitiesComponent } from './body/psychic-activities/psychic-activities.component';
 import { ThinkingComponent } from './body/superior-process/thinking/thinking.component';
+import { EntertainmentPlaceItemComponent } from './entertainment-places/entertainment-place-item/entertainment-place-item.component';
+import { EntertainmentPlacesComponent } from './entertainment-places/entertainment-places.component';
 
 const appRoutes: Routes = [
   {path: 'personality', component: PersonalityComponent},
@@ -59,7 +61,9 @@ const appRoutes: Routes = [
     DropdownDirective,
     FooterComponent,
     BodyComponent,
-    PsychicActivitiesComponent
+    PsychicActivitiesComponent,
+    EntertainmentPlaceItemComponent,
+    EntertainmentPlacesComponent
   ],
   imports: [
     BrowserModule,
